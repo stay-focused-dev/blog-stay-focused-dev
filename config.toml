@@ -1,7 +1,7 @@
-base_url = "https://YOUR_URL.TLD"
-title = "site title"
-description = "YOUR_SITE_DESCRIPTION"
-author = "YOUR_NAME"
+base_url = "https://blog.stay-focused.dev"
+title = "My blog"
+description = "My blog"
+author = "Maxim Komar"
 theme = "tabi"
 generate_feeds = true
 compile_sass = true
@@ -10,6 +10,9 @@ build_search_index = true
 default_language = "en"
 taxonomies = [{name = "tags", feed = true}]
 
+[languages.ru]
+title = "Мой блог"
+taxonomies = [{name = "tags", feed = true}]
 
 [search]
 # Whether to include the title of the page/section in the index.
@@ -78,7 +81,7 @@ skin = ""
 # These stylesheets should be located in your site's `static` directory.
 # Example: stylesheets = ["extra1.css", "path/extra2.css"]
 # You can load a stylesheet for a single post by adding it to the [extra] section of the post's front matter, following this same format.
-stylesheets = []
+stylesheets = ["css/custom.css"]
 
 # Sets the default canonical URL for all pages.
 # Individual pages can override this in the [extra] section using canonical_url.

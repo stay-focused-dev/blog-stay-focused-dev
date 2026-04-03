@@ -1,0 +1,36 @@
+/* Light mode: show light, hide dark */
+.img-dark {
+    display: none;
+}
+
+/* Dark mode: show dark, hide light */
+[data-theme="dark"] .img-dark {
+    display: block;
+}
+[data-theme="dark"] .img-light {
+    display: none;
+}
+
+.problem-statement {
+    border-left: 4px solid var(--primary-color);
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+    background: var(--bg-2); /* tabi's secondary background variable */
+}
+
+details {
+    border: 1px solid var(--border-color, #e0e0e0);
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+details[open] summary {
+    margin-bottom: 0.5em;
+}
