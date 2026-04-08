@@ -11,14 +11,6 @@
     display: none;
 }
 
-.problem-statement {
-    border-left: 4px solid var(--primary-color);
-    padding: 1rem 1.5rem;
-    margin: 1.5rem 0;
-    border-radius: 4px;
-    background: var(--bg-2); /* tabi's secondary background variable */
-}
-
 details {
     border: 1px solid var(--border-color, #e0e0e0);
     border-radius: 4px;
@@ -33,4 +25,21 @@ details summary {
 
 details[open] summary {
     margin-bottom: 0.5em;
+}
+
+.katex {
+    white-space: nowrap;
+}
+
+.admonition-content {
+    min-width: 0;
+}
+
+.admonition-content table {
+    display: block;
+    overflow-x: auto;
+}
+
+.table-wrapper {
+    overflow-x: auto;
 }

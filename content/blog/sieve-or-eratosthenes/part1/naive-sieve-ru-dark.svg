@@ -1,0 +1,242 @@
+<svg width="100%" viewBox="0 0 680 460" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="#1a1a18" rx="12"/>
+<rect x="56" y="10" width="16" height="16" rx="3" fill="rgba(255,255,255,0.05)"/>
+<text x="78" y="18" text-anchor="start" dominant-baseline="central" fill="#a0a09a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Чётные (пропускаем)</text>
+<line x1="220" y1="18" x2="240" y2="18" stroke="#7EC0F0" stroke-width="2" opacity="0.95" transform="rotate(-30 230 18)"/>
+<text x="248" y="18" text-anchor="start" dominant-baseline="central" fill="#a0a09a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Вычеркнуты (×3, ×5)</text>
+<line x1="392" y1="18" x2="412" y2="18" stroke="#E24B4A" stroke-width="2" opacity="0.8" transform="rotate(-30 402 18)"/>
+<text x="420" y="18" text-anchor="start" dominant-baseline="central" fill="#a0a09a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Вычёркиваем (×7)</text>
+<rect x="556" y="10" width="16" height="16" rx="3" fill="none" stroke="#7EC0F0" stroke-width="1.5" opacity="1"/>
+<text x="578" y="18" text-anchor="start" dominant-baseline="central" fill="#a0a09a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Обработаны: 3, 5</text>
+<rect x="556" y="32" width="16" height="16" rx="3" fill="none" stroke="#E24B4A" stroke-width="1.5"/>
+<text x="578" y="40" text-anchor="start" dominant-baseline="central" fill="#a0a09a" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Текущее: 7</text>
+<rect x="62" y="56" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="88.0" y="73.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.7" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">1</text>
+<rect x="118" y="56" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="144.0" y="73.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">2</text>
+<rect x="174" y="56" width="52" height="34" rx="5" fill="none" stroke="#7EC0F0" stroke-width="1.5" opacity="1"/>
+<text x="200.0" y="73.0" text-anchor="middle" dominant-baseline="central" fill="#7EC0F0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">3</text>
+<text x="222" y="64" text-anchor="end" dominant-baseline="central" fill="#7EC0F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" opacity="0.6">✓</text>
+<rect x="230" y="56" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="256.0" y="73.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">4</text>
+<rect x="286" y="56" width="52" height="34" rx="5" fill="none" stroke="#7EC0F0" stroke-width="1.5" opacity="1"/>
+<text x="312.0" y="73.0" text-anchor="middle" dominant-baseline="central" fill="#7EC0F0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">5</text>
+<text x="334" y="64" text-anchor="end" dominant-baseline="central" fill="#7EC0F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" opacity="0.6">✓</text>
+<rect x="342" y="56" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="368.0" y="73.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">6</text>
+<rect x="398" y="56" width="52" height="34" rx="5" fill="rgba(226,75,74,0.18)" stroke="#E24B4A" stroke-width="1.5"/>
+<text x="424.0" y="73.0" text-anchor="middle" dominant-baseline="central" fill="#E24B4A" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">7</text>
+<rect x="454" y="56" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="480.0" y="73.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">8</text>
+<rect x="510" y="56" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="536.0" y="73.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">9</text>
+<line x1="516" y1="86" x2="556" y2="60" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="566" y="56" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="592.0" y="73.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">10</text>
+<rect x="62" y="94" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="88.0" y="111.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">11</text>
+<rect x="118" y="94" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="144.0" y="111.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">12</text>
+<rect x="174" y="94" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="200.0" y="111.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">13</text>
+<rect x="230" y="94" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="256.0" y="111.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">14</text>
+<rect x="286" y="94" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="312.0" y="111.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">15</text>
+<line x1="292" y1="124" x2="332" y2="98" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="342" y="94" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="368.0" y="111.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">16</text>
+<rect x="398" y="94" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="424.0" y="111.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">17</text>
+<rect x="454" y="94" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="480.0" y="111.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">18</text>
+<rect x="510" y="94" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="536.0" y="111.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">19</text>
+<rect x="566" y="94" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="592.0" y="111.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">20</text>
+<rect x="62" y="132" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="88.0" y="149.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">21</text>
+<line x1="68" y1="162" x2="108" y2="136" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="118" y="132" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="144.0" y="149.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">22</text>
+<rect x="174" y="132" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="200.0" y="149.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">23</text>
+<rect x="230" y="132" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="256.0" y="149.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">24</text>
+<rect x="286" y="132" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="312.0" y="149.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">25</text>
+<line x1="292" y1="162" x2="332" y2="136" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="342" y="132" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="368.0" y="149.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">26</text>
+<rect x="398" y="132" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="424.0" y="149.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">27</text>
+<line x1="404" y1="162" x2="444" y2="136" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="454" y="132" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="480.0" y="149.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">28</text>
+<rect x="510" y="132" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="536.0" y="149.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">29</text>
+<rect x="566" y="132" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="592.0" y="149.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">30</text>
+<rect x="62" y="170" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="88.0" y="187.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">31</text>
+<rect x="118" y="170" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="144.0" y="187.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">32</text>
+<rect x="174" y="170" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="200.0" y="187.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">33</text>
+<line x1="180" y1="200" x2="220" y2="174" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="230" y="170" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="256.0" y="187.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">34</text>
+<rect x="286" y="170" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="312.0" y="187.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">35</text>
+<line x1="292" y1="200" x2="332" y2="174" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="342" y="170" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="368.0" y="187.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">36</text>
+<rect x="398" y="170" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="424.0" y="187.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">37</text>
+<rect x="454" y="170" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="480.0" y="187.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">38</text>
+<rect x="510" y="170" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="536.0" y="187.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">39</text>
+<line x1="516" y1="200" x2="556" y2="174" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="566" y="170" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="592.0" y="187.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">40</text>
+<rect x="62" y="208" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="88.0" y="225.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">41</text>
+<rect x="118" y="208" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="144.0" y="225.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">42</text>
+<rect x="174" y="208" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="200.0" y="225.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">43</text>
+<rect x="230" y="208" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="256.0" y="225.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">44</text>
+<rect x="286" y="208" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="312.0" y="225.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">45</text>
+<line x1="292" y1="238" x2="332" y2="212" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="342" y="208" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="368.0" y="225.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">46</text>
+<rect x="398" y="208" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="424.0" y="225.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">47</text>
+<rect x="454" y="208" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="480.0" y="225.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">48</text>
+<rect x="510" y="208" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="536.0" y="225.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">49</text>
+<line x1="516" y1="238" x2="556" y2="212" stroke="#E24B4A" stroke-width="2" opacity="0.8" stroke-linecap="round"/>
+<rect x="566" y="208" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="592.0" y="225.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">50</text>
+<rect x="62" y="246" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="88.0" y="263.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">51</text>
+<line x1="68" y1="276" x2="108" y2="250" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="118" y="246" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="144.0" y="263.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">52</text>
+<rect x="174" y="246" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="200.0" y="263.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">53</text>
+<rect x="230" y="246" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="256.0" y="263.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">54</text>
+<rect x="286" y="246" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="312.0" y="263.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">55</text>
+<line x1="292" y1="276" x2="332" y2="250" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="342" y="246" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="368.0" y="263.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">56</text>
+<rect x="398" y="246" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="424.0" y="263.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">57</text>
+<line x1="404" y1="276" x2="444" y2="250" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="454" y="246" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="480.0" y="263.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">58</text>
+<rect x="510" y="246" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="536.0" y="263.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">59</text>
+<rect x="566" y="246" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="592.0" y="263.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">60</text>
+<rect x="62" y="284" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="88.0" y="301.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">61</text>
+<rect x="118" y="284" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="144.0" y="301.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">62</text>
+<rect x="174" y="284" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="200.0" y="301.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">63</text>
+<line x1="180" y1="314" x2="220" y2="288" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<line x1="180" y1="314" x2="220" y2="288" stroke="#E24B4A" stroke-width="2" opacity="0.8" stroke-linecap="round"/>
+<rect x="230" y="284" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="256.0" y="301.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">64</text>
+<rect x="286" y="284" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="312.0" y="301.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">65</text>
+<line x1="292" y1="314" x2="332" y2="288" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="342" y="284" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="368.0" y="301.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">66</text>
+<rect x="398" y="284" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="424.0" y="301.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">67</text>
+<rect x="454" y="284" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="480.0" y="301.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">68</text>
+<rect x="510" y="284" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="536.0" y="301.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">69</text>
+<line x1="516" y1="314" x2="556" y2="288" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="566" y="284" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="592.0" y="301.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">70</text>
+<rect x="62" y="322" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="88.0" y="339.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">71</text>
+<rect x="118" y="322" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="144.0" y="339.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">72</text>
+<rect x="174" y="322" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="200.0" y="339.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">73</text>
+<rect x="230" y="322" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="256.0" y="339.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">74</text>
+<rect x="286" y="322" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="312.0" y="339.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">75</text>
+<line x1="292" y1="352" x2="332" y2="326" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="342" y="322" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="368.0" y="339.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">76</text>
+<rect x="398" y="322" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="424.0" y="339.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">77</text>
+<line x1="404" y1="352" x2="444" y2="326" stroke="#E24B4A" stroke-width="2" opacity="0.8" stroke-linecap="round"/>
+<rect x="454" y="322" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="480.0" y="339.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">78</text>
+<rect x="510" y="322" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="536.0" y="339.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">79</text>
+<rect x="566" y="322" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="592.0" y="339.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">80</text>
+<rect x="62" y="360" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="88.0" y="377.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">81</text>
+<line x1="68" y1="390" x2="108" y2="364" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="118" y="360" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="144.0" y="377.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">82</text>
+<rect x="174" y="360" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="200.0" y="377.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">83</text>
+<rect x="230" y="360" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="256.0" y="377.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">84</text>
+<rect x="286" y="360" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="312.0" y="377.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">85</text>
+<line x1="292" y1="390" x2="332" y2="364" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="342" y="360" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="368.0" y="377.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">86</text>
+<rect x="398" y="360" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="424.0" y="377.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">87</text>
+<line x1="404" y1="390" x2="444" y2="364" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="454" y="360" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="480.0" y="377.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">88</text>
+<rect x="510" y="360" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="536.0" y="377.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">89</text>
+<rect x="566" y="360" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="592.0" y="377.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">90</text>
+<rect x="62" y="398" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="88.0" y="415.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">91</text>
+<line x1="68" y1="428" x2="108" y2="402" stroke="#E24B4A" stroke-width="2" opacity="0.8" stroke-linecap="round"/>
+<rect x="118" y="398" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="144.0" y="415.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">92</text>
+<rect x="174" y="398" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="200.0" y="415.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">93</text>
+<line x1="180" y1="428" x2="220" y2="402" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="230" y="398" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="256.0" y="415.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">94</text>
+<rect x="286" y="398" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="312.0" y="415.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">95</text>
+<line x1="292" y1="428" x2="332" y2="402" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="342" y="398" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="368.0" y="415.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">96</text>
+<rect x="398" y="398" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="424.0" y="415.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="600">97</text>
+<rect x="454" y="398" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="480.0" y="415.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">98</text>
+<rect x="510" y="398" width="52" height="34" rx="5" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="0.75"/>
+<text x="536.0" y="415.0" text-anchor="middle" dominant-baseline="central" fill="#eae8e0" opacity="1" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">99</text>
+<line x1="516" y1="428" x2="556" y2="402" stroke="#7EC0F0" stroke-width="2" opacity="0.95" stroke-linecap="round"/>
+<rect x="566" y="398" width="52" height="34" rx="5" fill="rgba(255,255,255,0.05)" stroke="none"/>
+<text x="592.0" y="415.0" text-anchor="middle" dominant-baseline="central" fill="#6b6a65" opacity="0.55" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="400">100</text>
+<text x="340" y="444" text-anchor="middle" dominant-baseline="central" fill="#E24B4A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" opacity="1">49 → 63 → 77 → 91  (шаг 2×7 = 14)</text>
+</svg>

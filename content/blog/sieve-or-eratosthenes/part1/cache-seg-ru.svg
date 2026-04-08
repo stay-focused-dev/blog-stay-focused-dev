@@ -1,0 +1,141 @@
+<svg width="100%" viewBox="0 0 508 910" xmlns="http://www.w3.org/2000/svg">
+<rect x="59" y="31" width="15" height="15" rx="3" fill="rgba(226,75,74,0.07)" stroke="#E24B4A" stroke-width="1.5"/>
+<text x="80" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#6b6a65">загрузка из RAM (cache miss)</text>
+<rect x="274" y="31" width="15" height="15" rx="3" fill="rgba(93,202,165,0.10)" stroke="#3a9a78" stroke-width="1.5"/>
+<text x="295" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#6b6a65">данные в кэше (cache hit)</text>
+<rect x="24" y="54" width="460" height="46" fill="rgba(0,0,0,0.04)" rx="8"/>
+<rect x="24" y="92" width="460" height="8" fill="rgba(0,0,0,0.04)"/>
+<line x1="24" y1="100" x2="484" y2="100" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+<text x="38" y="73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#1a1a1a">Сегментированная версия</text>
+<text x="38" y="91" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#6b6a65">сегмент горячий — все проходы из кэша</text>
+<rect x="24" y="100" width="460" height="786" fill="rgba(0,0,0,0.02)" stroke="rgba(0,0,0,0.1)" stroke-width="1" rx="8"/>
+<rect x="24" y="118" width="460" height="30" fill="rgba(0,0,0,0.04)"/>
+<line x1="24" y1="118" x2="484" y2="118" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+<line x1="24" y1="148" x2="484" y2="148" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+<text x="38" y="137.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-style="italic" fill="#6b6a65">p = 3</text>
+<rect x="24" y="148" width="460" height="26" fill="rgba(226,75,74,0.07)"/>
+<rect x="24" y="148" width="3" height="26" fill="#E24B4A"/>
+<circle cx="37" cy="161.0" r="3" fill="#E24B4A"/>
+<text x="47" y="165.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#c03030">sieve[9]   = true</text>
+<text x="239" y="165.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#c03030">— загружается sieve[0..63]</text>
+<rect x="24" y="174" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="174" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="187.0" r="3" fill="#3a9a78"/>
+<text x="47" y="191.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[15]  = true</text>
+<text x="239" y="191.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="200" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="200" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="213.0" r="3" fill="#3a9a78"/>
+<text x="47" y="217.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[21]  = true</text>
+<text x="239" y="217.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="226" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="226" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="239.0" r="3" fill="#3a9a78"/>
+<text x="47" y="243.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[27]  = true</text>
+<text x="239" y="243.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="252" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="252" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="265.0" r="3" fill="#3a9a78"/>
+<text x="47" y="269.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[33]  = true</text>
+<text x="239" y="269.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="278" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="278" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="291.0" r="3" fill="#3a9a78"/>
+<text x="47" y="295.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[39]  = true</text>
+<text x="239" y="295.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="304" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="304" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="317.0" r="3" fill="#3a9a78"/>
+<text x="47" y="321.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[45]  = true</text>
+<text x="239" y="321.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="330" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="330" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="343.0" r="3" fill="#3a9a78"/>
+<text x="47" y="347.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[51]  = true</text>
+<text x="239" y="347.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="356" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="356" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="369.0" r="3" fill="#3a9a78"/>
+<text x="47" y="373.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[57]  = true</text>
+<text x="239" y="373.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="382" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="382" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="395.0" r="3" fill="#3a9a78"/>
+<text x="47" y="399.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[63]  = true</text>
+<text x="239" y="399.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="408" width="460" height="26" fill="rgba(226,75,74,0.07)"/>
+<rect x="24" y="408" width="3" height="26" fill="#E24B4A"/>
+<circle cx="37" cy="421.0" r="3" fill="#E24B4A"/>
+<text x="47" y="425.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#c03030">sieve[69]  = true</text>
+<text x="239" y="425.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#c03030">— загружается sieve[64..127]</text>
+<rect x="24" y="434" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="434" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="447.0" r="3" fill="#3a9a78"/>
+<text x="47" y="451.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[75]  = true</text>
+<text x="239" y="451.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[64..127])</text>
+<text x="46" y="473.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" fill="#9c9a92">…</text>
+<rect x="24" y="484" width="460" height="30" fill="rgba(0,0,0,0.04)"/>
+<line x1="24" y1="484" x2="484" y2="484" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+<line x1="24" y1="514" x2="484" y2="514" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+<text x="38" y="503.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-style="italic" fill="#6b6a65">p = 5</text>
+<rect x="24" y="514" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="514" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="527.0" r="3" fill="#3a9a78"/>
+<text x="47" y="531.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[25]  = true</text>
+<text x="239" y="531.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="540" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="540" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="553.0" r="3" fill="#3a9a78"/>
+<text x="47" y="557.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[35]  = true</text>
+<text x="239" y="557.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="566" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="566" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="579.0" r="3" fill="#3a9a78"/>
+<text x="47" y="583.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[45]  = true</text>
+<text x="239" y="583.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="592" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="592" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="605.0" r="3" fill="#3a9a78"/>
+<text x="47" y="609.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[55]  = true</text>
+<text x="239" y="609.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="618" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="618" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="631.0" r="3" fill="#3a9a78"/>
+<text x="47" y="635.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[65]  = true</text>
+<text x="239" y="635.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[64..127])</text>
+<rect x="24" y="644" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="644" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="657.0" r="3" fill="#3a9a78"/>
+<text x="47" y="661.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[75]  = true</text>
+<text x="239" y="661.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[64..127])</text>
+<text x="46" y="683.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" fill="#9c9a92">…</text>
+<rect x="24" y="694" width="460" height="30" fill="rgba(0,0,0,0.04)"/>
+<line x1="24" y1="694" x2="484" y2="694" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+<line x1="24" y1="724" x2="484" y2="724" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+<text x="38" y="713.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-style="italic" fill="#6b6a65">p = 7</text>
+<rect x="24" y="724" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="724" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="737.0" r="3" fill="#3a9a78"/>
+<text x="47" y="741.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[49]  = true</text>
+<text x="239" y="741.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="750" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="750" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="763.0" r="3" fill="#3a9a78"/>
+<text x="47" y="767.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[63]  = true</text>
+<text x="239" y="767.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[0..63])</text>
+<rect x="24" y="776" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="776" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="789.0" r="3" fill="#3a9a78"/>
+<text x="47" y="793.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[77]  = true</text>
+<text x="239" y="793.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[64..127])</text>
+<rect x="24" y="802" width="460" height="26" fill="rgba(93,202,165,0.10)"/>
+<rect x="24" y="802" width="3" height="26" fill="#3a9a78"/>
+<circle cx="37" cy="815.0" r="3" fill="#3a9a78"/>
+<text x="47" y="819.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" font-weight="500" fill="#2a7a5a">sieve[91]  = true</text>
+<text x="239" y="819.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="10" fill="#2a7a5a">— в кэше (sieve[64..127])</text>
+<text x="46" y="841.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" fill="#9c9a92">…</text>
+<line x1="34" y1="847" x2="474" y2="847" stroke="rgba(0,0,0,0.1)" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="254" y="864.0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-style="italic" fill="#9c9a92">p = 11, 13, 17, …</text>
+<rect x="24" y="100" width="460" height="786" fill="none" stroke="rgba(0,0,0,0.1)" stroke-width="1" rx="8"/>
+<rect x="24" y="54" width="460" height="832" fill="none" stroke="rgba(0,0,0,0.1)" stroke-width="1" rx="8"/>
+</svg>

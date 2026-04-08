@@ -1,0 +1,142 @@
+<svg width="100%" viewBox="0 0 508 1018" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="#1a1a18" rx="12"/>
+<rect x="59" y="31" width="15" height="15" rx="3" fill="rgba(232,80,80,0.18)" stroke="#ff5f5f" stroke-width="1.5"/>
+<text x="80" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#9c9a92">loaded from RAM (cache miss)</text>
+<rect x="274" y="31" width="15" height="15" rx="3" fill="rgba(75,200,155,0.15)" stroke="#4bc89b" stroke-width="1.5"/>
+<text x="295" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#9c9a92">data in cache (cache hit)</text>
+<rect x="24" y="54" width="460" height="46" fill="#2c2c2a" rx="8"/>
+<rect x="24" y="92" width="460" height="8" fill="#2c2c2a"/>
+<line x1="24" y1="100" x2="484" y2="100" stroke="#3a3a38" stroke-width="1"/>
+<text x="38" y="73" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#eae8e0">Naive version</text>
+<text x="38" y="91" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#9c9a92">each pass — reloaded from RAM</text>
+<rect x="24" y="100" width="460" height="894" fill="#242422" stroke="#3a3a38" stroke-width="1" rx="8"/>
+<rect x="24" y="118" width="460" height="34" fill="#2c2c2a"/>
+<line x1="24" y1="118" x2="484" y2="118" stroke="#3a3a38" stroke-width="1"/>
+<line x1="24" y1="152" x2="484" y2="152" stroke="#3a3a38" stroke-width="1"/>
+<text x="38" y="139.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-style="italic" fill="#aaa99f">p = 3</text>
+<rect x="24" y="152" width="460" height="30" fill="rgba(232,80,80,0.18)"/>
+<rect x="24" y="152" width="4" height="30" fill="#ff5f5f"/>
+<circle cx="38" cy="167.0" r="4" fill="#ff5f5f"/>
+<text x="48" y="171.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#ff7070">sieve[9]   = true</text>
+<text x="239" y="171.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#ff7070">— loaded sieve[0..63]</text>
+<rect x="24" y="182" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="182" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="197.0" r="4" fill="#4bc89b"/>
+<text x="48" y="201.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[15]  = true</text>
+<text x="239" y="201.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="212" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="212" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="227.0" r="4" fill="#4bc89b"/>
+<text x="48" y="231.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[21]  = true</text>
+<text x="239" y="231.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="242" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="242" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="257.0" r="4" fill="#4bc89b"/>
+<text x="48" y="261.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[27]  = true</text>
+<text x="239" y="261.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="272" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="272" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="287.0" r="4" fill="#4bc89b"/>
+<text x="48" y="291.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[33]  = true</text>
+<text x="239" y="291.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="302" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="302" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="317.0" r="4" fill="#4bc89b"/>
+<text x="48" y="321.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[39]  = true</text>
+<text x="239" y="321.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="332" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="332" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="347.0" r="4" fill="#4bc89b"/>
+<text x="48" y="351.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[45]  = true</text>
+<text x="239" y="351.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="362" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="362" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="377.0" r="4" fill="#4bc89b"/>
+<text x="48" y="381.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[51]  = true</text>
+<text x="239" y="381.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="392" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="392" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="407.0" r="4" fill="#4bc89b"/>
+<text x="48" y="411.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[57]  = true</text>
+<text x="239" y="411.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="422" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="422" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="437.0" r="4" fill="#4bc89b"/>
+<text x="48" y="441.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[63]  = true</text>
+<text x="239" y="441.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="452" width="460" height="30" fill="rgba(232,80,80,0.18)"/>
+<rect x="24" y="452" width="4" height="30" fill="#ff5f5f"/>
+<circle cx="38" cy="467.0" r="4" fill="#ff5f5f"/>
+<text x="48" y="471.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#ff7070">sieve[69]  = true</text>
+<text x="239" y="471.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#ff7070">— loaded sieve[64..127]</text>
+<rect x="24" y="482" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="482" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="497.0" r="4" fill="#4bc89b"/>
+<text x="48" y="501.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[75]  = true</text>
+<text x="239" y="501.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[64..127])</text>
+<text x="46" y="526.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" fill="#6b6a65">…</text>
+<rect x="24" y="538" width="460" height="34" fill="#2c2c2a"/>
+<line x1="24" y1="538" x2="484" y2="538" stroke="#3a3a38" stroke-width="1"/>
+<line x1="24" y1="572" x2="484" y2="572" stroke="#3a3a38" stroke-width="1"/>
+<text x="38" y="559.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-style="italic" fill="#aaa99f">p = 5</text>
+<rect x="24" y="572" width="460" height="30" fill="rgba(232,80,80,0.18)"/>
+<rect x="24" y="572" width="4" height="30" fill="#ff5f5f"/>
+<circle cx="38" cy="587.0" r="4" fill="#ff5f5f"/>
+<text x="48" y="591.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#ff7070">sieve[25]  = true</text>
+<text x="239" y="591.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#ff7070">— loaded sieve[0..63]</text>
+<rect x="24" y="602" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="602" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="617.0" r="4" fill="#4bc89b"/>
+<text x="48" y="621.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[35]  = true</text>
+<text x="239" y="621.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="632" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="632" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="647.0" r="4" fill="#4bc89b"/>
+<text x="48" y="651.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[45]  = true</text>
+<text x="239" y="651.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="662" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="662" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="677.0" r="4" fill="#4bc89b"/>
+<text x="48" y="681.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[55]  = true</text>
+<text x="239" y="681.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="692" width="460" height="30" fill="rgba(232,80,80,0.18)"/>
+<rect x="24" y="692" width="4" height="30" fill="#ff5f5f"/>
+<circle cx="38" cy="707.0" r="4" fill="#ff5f5f"/>
+<text x="48" y="711.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#ff7070">sieve[65]  = true</text>
+<text x="239" y="711.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#ff7070">— loaded sieve[64..127]</text>
+<rect x="24" y="722" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="722" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="737.0" r="4" fill="#4bc89b"/>
+<text x="48" y="741.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[75]  = true</text>
+<text x="239" y="741.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[64..127])</text>
+<text x="46" y="766.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" fill="#6b6a65">…</text>
+<rect x="24" y="778" width="460" height="34" fill="#2c2c2a"/>
+<line x1="24" y1="778" x2="484" y2="778" stroke="#3a3a38" stroke-width="1"/>
+<line x1="24" y1="812" x2="484" y2="812" stroke="#3a3a38" stroke-width="1"/>
+<text x="38" y="799.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-style="italic" fill="#aaa99f">p = 7</text>
+<rect x="24" y="812" width="460" height="30" fill="rgba(232,80,80,0.18)"/>
+<rect x="24" y="812" width="4" height="30" fill="#ff5f5f"/>
+<circle cx="38" cy="827.0" r="4" fill="#ff5f5f"/>
+<text x="48" y="831.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#ff7070">sieve[49]  = true</text>
+<text x="239" y="831.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#ff7070">— loaded sieve[0..63]</text>
+<rect x="24" y="842" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="842" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="857.0" r="4" fill="#4bc89b"/>
+<text x="48" y="861.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[63]  = true</text>
+<text x="239" y="861.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[0..63])</text>
+<rect x="24" y="872" width="460" height="30" fill="rgba(232,80,80,0.18)"/>
+<rect x="24" y="872" width="4" height="30" fill="#ff5f5f"/>
+<circle cx="38" cy="887.0" r="4" fill="#ff5f5f"/>
+<text x="48" y="891.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#ff7070">sieve[77]  = true</text>
+<text x="239" y="891.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#ff7070">— loaded sieve[64..127]</text>
+<rect x="24" y="902" width="460" height="30" fill="rgba(75,200,155,0.15)"/>
+<rect x="24" y="902" width="4" height="30" fill="#4bc89b"/>
+<circle cx="38" cy="917.0" r="4" fill="#4bc89b"/>
+<text x="48" y="921.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" font-weight="500" fill="#4bc89b">sieve[91]  = true</text>
+<text x="239" y="921.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="11" fill="#4bc89b">— in cache (sieve[64..127])</text>
+<text x="46" y="946.0" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="13" fill="#6b6a65">…</text>
+<line x1="34" y1="953" x2="474" y2="953" stroke="#3a3a38" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="254" y="971.0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-style="italic" fill="#7a7970">p = 11, 13, 17, …</text>
+<rect x="24" y="100" width="460" height="894" fill="none" stroke="#3a3a38" stroke-width="1" rx="8"/>
+<rect x="24" y="54" width="460" height="940" fill="none" stroke="#3a3a38" stroke-width="1" rx="8"/>
+</svg>
